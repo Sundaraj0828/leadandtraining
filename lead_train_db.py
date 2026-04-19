@@ -23,7 +23,7 @@ def connect_db():
 
     ca = certifi.where()
 
-    con = MongoClient('mongodb+srv://Sourav:l9EG8ULwylphgjHS@nexusfieldservice.axvp7.mongodb.net/Lead_Training_Database?retryWrites=true&w=majority')
+    con = MongoClient('')
     db = con.Lead_Training_Database
     col_vipList = db.vipList
     col_referal_list = db.referralList
