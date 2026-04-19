@@ -14,7 +14,7 @@ def connect_db():
   global db
   global col
   ca = certifi.where()
-  con = MongoClient('mongodb+srv://Sourav:l9EG8ULwylphgjHS@nexusfieldservice.axvp7.mongodb.net/Properties?retryWrites=true&w=majority',tlsCAFile = ca)
+  con = MongoClient('')
   db = con.Properties
   col = db.sensitive_access
 
