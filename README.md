@@ -1,2 +1,4 @@
 # leadandtraining
 # Python
+Flask
+MongoDB
